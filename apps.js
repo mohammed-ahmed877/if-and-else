@@ -36,25 +36,36 @@
 
 // 5. Ask for two numbers. If they are equal, log "Both numbers are the same";
 // otherwise, log "The numbers are different".
+// let num1 = prompt("enter your first number ") 
+// let num2 = prompt("enter your second  number ") 
+// if (num1===num2) {
+//     console.log("oo waoo both numbers are equal ");
+    
+    
+// } else {
+//     console.log("the numbers are different ");
+    
+// }
 
+// 6. Ask the user to enter two numbers. Check which one is larger and alert: "First is larger" or "Second is larger".
+// let num=prompt("enter your first number ")
+// let num1=prompt("enter your second number  ")
+// if (num >= num1) { 
+//     alert("first number is greater ")
+    
+// } else {
+//     alert("the second number is larger ")
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// 6. Ask the user to enter two numbers. Check which one is larger and alert: "First is
-// larger" or "Second is larger".
-// 7. Ask for a number. If it's greater than 100, alert "Too big!", else alert "Within
-// range".
+// 7. Ask for a number. If it's greater than 100, alert "Too big!", else alert "Within range".
+let num= prompt("enter the number ")
+if (num>100) {
+    alert("your enter a too much large number ")
+    
+} else {
+    alert("with in range")
+    
+}
 // 8. Ask for a score. If it’s 50 or higher, log "You passed!", else log "You failed."
 // 9. Ask the user to enter a temperature. If it’s over 30, alert "It's hot!"; else alert "It's
 // not hot."
