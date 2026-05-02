@@ -58,15 +58,24 @@
 // }
 
 // 7. Ask for a number. If it's greater than 100, alert "Too big!", else alert "Within range".
-let num= prompt("enter the number ")
-if (num>100) {
-    alert("your enter a too much large number ")
+// let num= prompt("enter the number ")
+// if (num>100) {
+//     alert("your enter a too much large number ")
     
-} else {
-    alert("with in range")
+// } else {
+//     alert("with in range")
     
-}
+// }
 // 8. Ask for a score. If it’s 50 or higher, log "You passed!", else log "You failed."
+let num=prompt("enter your marks")
+if(num>50){
+    alert("you are passed")
+}
+else{
+    alert("you are failed")
+}
+
+
 // 9. Ask the user to enter a temperature. If it’s over 30, alert "It's hot!"; else alert "It's
 // not hot."
 // 10. Ask the user to enter a number. If it's 0, alert "Zero"; if it’s not zero, alert "Not zero".
@@ -114,6 +123,8 @@ if (num>100) {
 // ● "Senior Discount" if age ≥ 60
 // ● "Premium Discount" if a premium member
 // ● "No Discount" otherwise
+
+
 
 // 3. Login and Email Verification
 // ● If user is logged in and email is verified → "Access granted"
