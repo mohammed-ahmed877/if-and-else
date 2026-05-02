@@ -67,19 +67,46 @@
     
 // }
 // 8. Ask for a score. If it’s 50 or higher, log "You passed!", else log "You failed."
-let num=prompt("enter your marks")
-if(num>50){
-    alert("you are passed")
-}
-else{
-    alert("you are failed")
-}
+// let num=prompt("enter your marks")
+// if(num>50){
+//     alert("you are passed")
+// }
+// else{
+//     alert("you are failed")
+// }
 
 
 // 9. Ask the user to enter a temperature. If it’s over 30, alert "It's hot!"; else alert "It's
 // not hot."
+// const num=prompt("kindly enter the weather in your city it is know")
+// if (num>30) {
+//     alert("ohoo its too much hot in your area how you are servivng")
+    
+// } else {
+//     alert("hmm its good not too much hot just enjou")
+// }
+
 // 10. Ask the user to enter a number. If it's 0, alert "Zero"; if it’s not zero, alert "Not zero".
+// let num = prompt("enter a number" )
+// if (num==0) {
+// alert("its zero")
+    
+// } else {
+//     alert("not zero")
+// }
+
+
+
+
 // 11. Ask the user for their age. If it's 60 or more, log "You are a senior citizen.",
+let age=prompt("tell me your age how much it is ")
+if (age>=60){
+    console.log("you are a senior citizen ")
+}
+else{
+    console.log("you are still jawan and goo to clubs and enjoy ")
+}
+
 // else log "You are not a senior."
 // 12. Ask the user for their name. If the name is "Alice", alert "Hi, Alice!"; else alert
 // "You're not Alice!"
