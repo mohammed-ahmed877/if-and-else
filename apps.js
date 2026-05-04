@@ -1,3 +1,9 @@
+
+
+
+
+
+
 // 1. Ask the user for their age. If the age is 18 or more, show an alert: "You are an adult.", else show: "You are a minor."
 // let age= prompt("tell me your age")
 // if (age>=18) {
@@ -6,6 +12,16 @@
 // } else {
 //     alert ("you are minor.")
 // }
+
+
+
+
+
+
+
+
+
+
 
 // 2. Ask the user to enter a number. If it's positive, log: "Positive number"; else log "Not positive".
 // let num= prompt("enter a number that you want to check ")
@@ -16,6 +32,28 @@
 //     alert("you enter a not positive")
 // }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 3. Ask the user for a number. If it’s even, alert: "Even number"; else alert: "Odd number".
 // let num = prompt("enter a number an even or odd")
 // if (num %2==0) {
@@ -24,6 +62,22 @@
 // } else {
 //     alert("you enter a odd number ")
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 4. Ask for a username. If the username is "admin", display "Welcome, admin!"; else  display "Access denied.
 // let num =prompt("enter the user name ")
 // if (num === "admin") {
@@ -32,6 +86,20 @@
 //     alert("Access denied")
     
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // 5. Ask for two numbers. If they are equal, log "Both numbers are the same";
@@ -47,6 +115,18 @@
     
 // }
 
+
+
+
+
+
+
+
+
+
+
+
+
 // 6. Ask the user to enter two numbers. Check which one is larger and alert: "First is larger" or "Second is larger".
 // let num=prompt("enter your first number ")
 // let num1=prompt("enter your second number  ")
@@ -57,6 +137,17 @@
 //     alert("the second number is larger ")
 // }
 
+
+
+
+
+
+
+
+
+
+
+
 // 7. Ask for a number. If it's greater than 100, alert "Too big!", else alert "Within range".
 // let num= prompt("enter the number ")
 // if (num>100) {
@@ -66,6 +157,20 @@
 //     alert("with in range")
     
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 8. Ask for a score. If it’s 50 or higher, log "You passed!", else log "You failed."
 // let num=prompt("enter your marks")
 // if(num>50){
@@ -74,6 +179,14 @@
 // else{
 //     alert("you are failed")
 // }
+
+
+
+
+
+
+
+
 
 
 // 9. Ask the user to enter a temperature. If it’s over 30, alert "It's hot!"; else alert "It's
@@ -85,6 +198,15 @@
 // } else {
 //     alert("hmm its good not too much hot just enjou")
 // }
+
+
+
+
+
+
+
+
+
 
 // 10. Ask the user to enter a number. If it's 0, alert "Zero"; if it’s not zero, alert "Not zero".
 // let num = prompt("enter a number" )
@@ -98,34 +220,325 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 // 11. Ask the user for their age. If it's 60 or more, log "You are a senior citizen.",
-let age=prompt("tell me your age how much it is ")
-if (age>=60){
-    console.log("you are a senior citizen ")
-}
-else{
-    console.log("you are still jawan and goo to clubs and enjoy ")
-}
+// let age=prompt("tell me your age how much it is ")
+// if (age>=60){
+//     console.log("you are a senior citizen ")
+// }
+// else{
+//     console.log("you are still jawan and goo to clubs and enjoy ")
+// }
 
 // else log "You are not a senior."
+
+
+
+
+
+
+
+
+
+
 // 12. Ask the user for their name. If the name is "Alice", alert "Hi, Alice!"; else alert
 // "You're not Alice!"
+// let name=prompt("kindley enter your name ")
+// if (name==="Ahmed") {
+// alert("hi 'Ahmed' welcome to my web")    
+// } else {
+//     alert("you are not ahmed ")
+// }
 
-// 13. Ask the user for a password. If it matches "12345", log "Correct password"; else
-// log "Wrong password".
-// 14. Ask the user for the current hour (0–23). If it’s less than 12, alert "Good morning!";
-// else alert "Good afternoon!"
-// 15. Ask the user to enter a number. If it's divisible by 5, log "Divisible by 5"; else log
-// "Not divisible by 5".
-// 16. Ask the user if they want to play a game (yes/no). If they type "yes", alert "Let's
-// play!"; else alert "Maybe next time!"
-// 17. Ask the user for a color. If the color is "blue", log "Cool choice!"; else log
-// "Interesting color!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//13. Ask the user for a password. If it matches "12345", log "Correct password"; else log "Wrong password".
+// let num= prompt("kindly enter your pasword")
+// if (num == 12345) {
+//     console.log("correct paword");
+    
+    
+// } else {
+//     console.log("wrong paword");
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 14. Ask the user for the current hour (0–23). If it’s less than 12, alert "Good morning!"; else alert "Good afternoon!"
+
+// let time=prompt("kindly enter the time in your area")
+// if (time < 12) {
+//     alert("good morning")
+    
+// } else {
+    
+//     alert("good afternoon ")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 15. Ask the user to enter a number. If it's divisible by 5, log "Divisible by 5"; else log "Not divisible by 5".
+// let num=prompt("enter a number ")
+// if (num % 5 == 0) {
+//     console.log("divisible by 5")        
+// } else {
+//     console.log("not divisible by 5")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 16. Ask the user if they want to play a game (yes/no). If they type "yes", alert "Let'splay!"; else alert "Maybe next time!"
+// let num=prompt("do you want to play a game yes or no ")
+// if (num == "yes") {
+//     alert("lets play")
+
+// } else if (num == "no") {
+    
+//     alert("may be next time")
+// } else {
+//     alert("Invalid input")
+// }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 17. Ask the user for a color. If the color is "blue", log "Cool choice!"; else log "Interesting color!"
+
+// let color=prompt("ener your favroit color")
+// if (color=="blue") {
+//     console.log("cool choice");
+    
+    
+// } else {
+//     console.log("interresting choice");
+    
+    
+// }
+
+
+
+
 // 18. Ask for the day of the week. If it’s "Sunday", alert "Weekend!"; else alert "Weekday".
-// 19. Ask the user to enter a fruit. If it's "banana" or "apple", alert "We have that!";
-// else alert "Sorry, out of stock."
-// 20. Ask the user to type "start" to begin. If they do, alert "Game started!"; else alert
-// "Waiting for input..."
+// let weak = prompt("tell me the day")
+// if (weak =="sunday"||weak =="monday"||weak =="tuesday") {
+//     alert("weakend")
+// } else {
+    
+//     alert("weakday")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 19. Ask the user to enter a fruit. If it's "banana" or "apple", alert "We have that!";else alert "Sorry, out of stock."
+// let fruit =prompt("enter th3e friut name ")
+// if (fruit=="banan" || fruit =="apple") 
+//     {
+//         alert("we have this ")
+        
+//     } else {
+        
+//         alert(" we dont have his  ")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 20. Ask the user to type "start" to begin. If they do, alert "Game started!"; else alert"Waiting for input..."
+// let num=prompt("type start to begin the game ")
+// if (num=="start") {
+//     alert("game started")                            
+// } else {
+//     alert("waiting for input")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Here is the content formatted for a Google Doc. You can copy and paste it directly into Google
 // Docs, or I can generate and export a downloadable version if you'd like.
