@@ -540,8 +540,6 @@
 
 
 
-// Here is the content formatted for a Google Doc. You can copy and paste it directly into Google
-// Docs, or I can generate and export a downloadable version if you'd like.
 
 // Title: Advanced JavaScript Conditional Logic Practice
 
@@ -556,6 +554,40 @@
 // ● "Pass" if marks ≥ 50 and < 80
 // ● "Fail" if marks < 50
 // ● "Invalid Marks" if marks are not between 0 and 100
+// let marks = prompt("Enter your marks:");
+// if (marks>=80 && marks<=100){
+//     console.log("congratutlation you got good marks");
+    
+// }
+// else if(marks<=80 &&marks>=50){
+//     console.log("pass");
+    
+
+// }
+// else if(marks>=0 && marks<=50){
+//     console.log("faile");
+
+    
+
+// }
+// else{
+//     console.log("invalid marks");
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 2. Discount Eligibility Based on Age and Membership
 // Given a person's age and membership status, show:
@@ -563,6 +595,60 @@
 // ● "Senior Discount" if age ≥ 60
 // ● "Premium Discount" if a premium member
 // ● "No Discount" otherwise
+// let age=(prompt("enter your age to get a discount"))
+
+// let member = prompt(("tell me you are our primium member or not"))
+
+// if (age >= 60 && member== "yes") {
+//     console.log("senior priemum discoumt");
+    
+    
+// } else if (age => 60 && member== "no") {
+//     console.log("senior discount");
+    
+    
+// }
+// else if(member== "yes"){
+    
+//    console.log("premium dscount");
+
+// }else{
+//     console.log("no discount");
+    
+// }
+
+
+
+
+
+let age = prompt("Enter your age to get a discount");
+let member = prompt("Tell me are you our premium member or not");
+
+if (age >= 60 && member == "yes") {
+    console.log("Senior Premium Discount");
+}
+else if (age >= 60 && member == "no") {
+    console.log("Senior Discount");
+}
+else if (member == "yes") {
+    console.log("Premium Discount");
+}
+else {
+    console.log("No Discount");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
