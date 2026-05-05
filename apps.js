@@ -595,24 +595,22 @@
 // ● "Senior Discount" if age ≥ 60
 // ● "Premium Discount" if a premium member
 // ● "No Discount" otherwise
-// let age=(prompt("enter your age to get a discount"))
 
-// let member = prompt(("tell me you are our primium member or not"))
+// let age = prompt("kindly enter your age ")
+// let member  = prompt ("you are member or not ")
+// if(age>=60 && member=="yes"){
+// console.log("senior premium discount");
 
-// if (age >= 60 && member== "yes") {
-//     console.log("senior priemum discoumt");
-    
-    
-// } else if (age => 60 && member== "no") {
+// }
+// else if (age>=60 && member=="no"){
 //     console.log("senior discount");
     
+// }
+// else if(member=="yes"){
+//     console.log("premium discount");
     
 // }
-// else if(member== "yes"){
-    
-//    console.log("premium dscount");
-
-// }else{
+// else{
 //     console.log("no discount");
     
 // }
@@ -621,21 +619,12 @@
 
 
 
-let age = prompt("Enter your age to get a discount");
-let member = prompt("Tell me are you our premium member or not");
 
-if (age >= 60 && member == "yes") {
-    console.log("Senior Premium Discount");
-}
-else if (age >= 60 && member == "no") {
-    console.log("Senior Discount");
-}
-else if (member == "yes") {
-    console.log("Premium Discount");
-}
-else {
-    console.log("No Discount");
-}
+
+
+
+
+
 
 
 
@@ -656,6 +645,49 @@ else {
 // ● If user is logged in and email is verified → "Access granted"
 // ● If user is logged in but not verified → "Please verify your email"
 // ● If not logged in → "Please log in"
+let login = prompt("are you logged in ? yes or no");
+let emailVerified = prompt("is your email verified ? yes or no");
+
+if (login === "yes" && emailVerified === "yes") {               
+    console.log("access granted");
+} else if (login === "yes" && emailVerified === "no") {
+    console.log("please verify your email");
+}   
+else if (login === "no") {
+    console.log("please log in");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 4. Contest Eligibility
 // Check if a person is eligible to enter a contest:
