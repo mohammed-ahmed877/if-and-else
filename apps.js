@@ -645,18 +645,19 @@
 // ● If user is logged in and email is verified → "Access granted"
 // ● If user is logged in but not verified → "Please verify your email"
 // ● If not logged in → "Please log in"
-let login = prompt("are you logged in ? yes or no");
-let emailVerified = prompt("is your email verified ? yes or no");
+// let log = prompt("have you log in? 'yes' / 'no' ")
+// let email = prompt("have enter your email? 'yes'/'no' ")
+// if (email=="yes" && log =="yes"){
+//     console.log("'access granted'");
+//     }
+// else if (log=="yes" && email == "no"){
+// console.log("kindly enter your email ");
 
-if (login === "yes" && emailVerified === "yes") {               
-    console.log("access granted");
-} else if (login === "yes" && emailVerified === "no") {
-    console.log("please verify your email");
-}   
-else if (login === "no") {
-    console.log("please log in");
-}
-
+// }
+// else if (log== "no" ){
+//     console.log("kindly befor log in ");
+    
+// }
 
 
 
@@ -691,12 +692,54 @@ else if (login === "no") {
 
 // 4. Contest Eligibility
 // Check if a person is eligible to enter a contest:
-
 // ● Must be between ages 18–35
 // ● Must be from Pakistan or India
 // ● Must not be banned
-
 // Display appropriate messages for age, region, or ban issues.
+// let age= prompt("kindly enter your age")
+// let city=prompt("kindlyl tell me about your countery")
+// let ban=prompt("you are bann or not ")
+// if(age>=18 && age<=35 ){
+//  console.log("you are eligible for this contest");
+ 
+// }
+//     else if (city==="pakistan"||city ==="india"){
+// console.log("you are eligible for this contest");
+
+//     }
+//     else if(ban ==="yes"){
+// console.log("you are not eligible for this contest");
+
+//     }
+//     else{
+//         console.log("you are not eligible for this contest");       
+//     }       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 5. Subscription Access Check
 // Given the subscription plan and login status:
@@ -704,6 +747,36 @@ else if (login === "no") {
 // ● "Welcome Free User" if plan is "free" and logged in
 // ● "Please log in to continue" if not logged in
 // ● "Invalid subscription" otherwise
+// let log=prompt("kindly tell me you have acess the log in'yes '/ 'no '")
+// let plan=prompt("kindly tell me about your plan ")
+//  if (log=="no"){
+//     console.log("kindly first log in  ");
+    
+//  }
+
+// else if(plan==="premium" ){
+//     console.log("welcom premium user");
+    
+// }
+//  else if (plan==="free"){
+//    console.log("weclome free user ");
+   
+// }
+
+
+// else{
+//     console.log("invalid subscrption");
+    
+// }
+
+
+
+
+
+
+
+
+
 
 // 6. Product Purchase Validation
 // Check product conditions:
@@ -711,14 +784,69 @@ else if (login === "no") {
 // ● "Buy now" if in stock
 // ● "Out of stock" if stock === 0
 // ● "Invalid product" otherwise
+// let price=prompt("kindly tell me the price")
+// let stock = prompt("tell me the stock how much you need")
+// let member =prompt("tell me you are the memebr 'yes'/'no'")
+// if(price>=1000 && member ==="yes"&& stock>0){
+//     console.log("buy itknow whith dicount");
+    
+// }
+
+// else if(stock >0){
+//     console.log("buy it know");
+    
+// }
+
+//  else if (stock==0){
+//     console.log("out of stock ");
+    
+//  }
+// else{
+//     console.log("invalide product");
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 7. Work Hours Check
 // Check based on hoursWorked and isWeekend:
-
 // ● "Overtime" if hours > 40 and not a weekend
 // ● "Weekend work" if hours > 0 and is weekend
 // ● "Regular hours" if ≤ 40
 // ● "No work" if hours === 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 8. Age and Gender Classification
 // Given a user's age and gender:
